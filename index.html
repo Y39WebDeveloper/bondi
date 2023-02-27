@@ -98,50 +98,50 @@
                 <h1 class="mb-4 fs-2">We Make Thist</h1>
                 <p class="text-black-50 text-uppercase">Prepare to be amazed</p>
             </div>
-            <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5">
-                <li class="active rounded-pill">All</li>
-                <li>Design</li>
-                <li>Code</li>
-                <li>Photo</li>
-                <li>App</li>
+            <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5" id="switchers">
+                <li class="active rounded-pill" data-filter=".all">All</li>
+                <li data-filter=".design">Design</li>
+                <li data-filter=".code">Code</li>
+                <li data-filter=".photo">Photo</li>
+                <li data-filter=".app">App</li>
             </ul>
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="row" id="workGallery">
+                <div class="col-sm-6 col-md-4 col-lg-3 all deisgn">
                     <div class="box mb-3 bg-white" data-work="Design">
                         <img src="imgs/work-01.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all app">
                     <div class="box mb-3 bg-white" data-work="App">
                         <img src="imgs/work-02.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all design">
                     <div class="box mb-3 bg-white" data-work="Design">
                         <img src="imgs/work-03.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all photo">
                     <div class="box mb-3 bg-white" data-work="Photo">
                         <img src="imgs/work-04.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all design">
                     <div class="box mb-3 bg-white" data-work="Design">
                         <img src="imgs/work-05.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all app">
                     <div class="box mb-3 bg-white" data-work="App">
                         <img src="imgs/work-06.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all code">
                     <div class="box mb-3 bg-white" data-work="Code">
                         <img src="imgs/work-07.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 all photo">
                     <div class="box mb-3 bg-white" data-work="Photo">
                         <img src="imgs/work-08.jpg" alt="" class="img-fluid">
                     </div>
@@ -360,5 +360,6 @@
         </div>   </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
